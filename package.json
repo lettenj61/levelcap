@@ -1,0 +1,27 @@
+{
+  "name": "levelcap",
+  "version": "0.0.1",
+  "description": "Easy-to-use JSON file storage powered by LevelDOWN",
+  "main": "dist/index.js",
+  "types": "dist/levelcap.d.ts",
+  "scripts": {
+    "dev": "tsc -p . --outDir dist --module commonjs",
+    "example": "npm run dev && node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lettenj61 <letitscalable+npm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/encoding-down": "^5.0.0",
+    "@types/levelup": "^4.3.1",
+    "@types/memdown": "^3.0.0",
+    "@types/node": "^15.12.2",
+    "rollup": "^2.51.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "encoding-down": "^7.0.0",
+    "levelup": "^5.0.1",
+    "memdown": "^6.0.0"
+  }
+}

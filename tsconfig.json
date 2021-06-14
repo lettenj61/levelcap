@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "target": "ES2019"
+  },
+  "include": ["src/**/*.ts"]
+}
